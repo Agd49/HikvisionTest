@@ -1,0 +1,25 @@
+﻿生成启动时间为 2017/5/28 22:21:09。
+     1>项目“C:\Users\Adam Duncn\Documents\Visual Studio 2013\Projects\Hikvision\Hikvision\Hikvision.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp model.cpp
+         main.cpp
+     1>main.cpp(32): warning C4101: “robotNumber”: 未引用的局部变量
+     1>main.cpp(24): warning C4101: “carWeight”: 未引用的局部变量
+     1>main.cpp(28): warning C4101: “overTimeCarNumber”: 未引用的局部变量
+     1>main.cpp(26): warning C4101: “carConsume”: 未引用的局部变量
+     1>main.cpp(22): warning C4101: “pathLength”: 未引用的局部变量
+     1>main.cpp(34): warning C4101: “waitTime”: 未引用的局部变量
+     1>main.cpp(30): warning C4101: “overTimeConsume”: 未引用的局部变量
+     1>main.cpp(40): warning C4101: “result”: 未引用的局部变量
+         model.cpp
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Adam Duncn\Documents\Visual Studio 2013\Projects\Hikvision\Release\Hikvision.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Adam Duncn\Documents\Visual Studio 2013\Projects\Hikvision\Release\Hikvision.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Adam Duncn\Documents\Visual Studio 2013\Projects\Hikvision\Release\Hikvision.lib" /MACHINE:X86 /SAFESEH Release\main.obj
+         Release\model.obj
+         正在生成代码
+         已完成代码的生成
+         Hikvision.vcxproj -> C:\Users\Adam Duncn\Documents\Visual Studio 2013\Projects\Hikvision\Release\Hikvision.exe
+     1>已完成生成项目“C:\Users\Adam Duncn\Documents\Visual Studio 2013\Projects\Hikvision\Hikvision\Hikvision.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.06
